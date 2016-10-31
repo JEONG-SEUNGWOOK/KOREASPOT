@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorMain"
+    tools:context="com.example.seungwook.koreaspot.Main.HomeFragment"
+    android:weightSum="1">
+
+    <FrameLayout
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="40dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="200dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/PictonBlue"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/StepCount" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="200dp"
+            android:textSize="15sp"
+            android:textColor="@color/text_green"
+            android:gravity="center"
+            android:id="@+id/goals"/>
+
+        </LinearLayout>
+
+        <com.txusballesteros.widgets.FitChart
+            style="@style/chart_style"
+            app:animationMode="overdraw"
+            android:id="@+id/FitChart"
+            app:valueStrokeColor="@color/colorFont"
+            app:backStrokeColor="@color/colorApp"
+            android:layout_width="273dp"
+            android:layout_height="267dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="horizontal"
+        android:padding="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.31"
+        android:weightSum="1">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/burn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:id="@+id/imageView" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cal"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+
+            <TextView
+                android:text="칼로리 소모량"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/km"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_marginBottom="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/distance"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+            <TextView
+                android:text="거리"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:id="@+id/textView16" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_marginBottom="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/stepTime"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+            <TextView
+                android:text="활동시간"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:id="@+id/textView17" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

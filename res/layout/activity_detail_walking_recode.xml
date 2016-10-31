@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.seungwook.koreaspot.ExerciseHistory.DetailWalkingRecode">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="143dp"
+            android:id="@+id/walkingTime"
+            android:gravity="center_horizontal"
+            android:textAppearance="@android:style/TextAppearance.Material.Display4" />
+
+
+        <TextView
+            android:text="총 킬로미터"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Material.Display2" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:padding="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.31"
+        android:weightSum="1">
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/burn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:id="@+id/imageView" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailCal"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+
+            <TextView
+                android:text="칼로리 소모량"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:gravity="center_horizontal"
+                android:id="@+id/textView15" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/walking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_marginBottom="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailStep"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+            <TextView
+                android:text="걸음수"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:id="@+id/textView16" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_marginBottom="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailStepTime"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+            <TextView
+                android:text="활동시간"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:id="@+id/textView17" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

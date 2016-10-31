@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="CALENDAR"
+        android:textSize="30sp"
+        android:textColor="@color/chart_value_2"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin" />
+
+    <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="373dp"
+        app:mcv_weekDayLabels="@array/custom_weekdays"
+        app:mcv_monthLabels="@array/custom_months"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:mcv_showOtherDates="all"
+        app:mcv_selectionColor="@color/chart_value_2"
+        app:mcv_headerTextAppearance="@color/chart_value_2"
+        app:mcv_dateTextAppearance="@color/white"
+        app:mcv_arrowColor="@color/chart_value_2"
+        app:mcv_weekDayTextAppearance="@color/chart_value_2" />
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:text="사진"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/chart_value_2"
+            android:background="@color/colorApp"
+            android:id="@+id/cal_button1"/>
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/chart_value_2"
+            android:background="@color/colorApp"
+            android:text="이력보기"
+            android:id="@+id/cal_button2"/>
+    </LinearLayout>
+
+
+</LinearLayout>

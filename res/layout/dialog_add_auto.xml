@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="운동 강도"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoSpinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/strength"
+
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+
+    <TextView
+        android:text="운동 루틴"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView51"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoRoutineSpinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/routine"
+
+        android:layout_marginBottom="@dimen/activity_vertical_margin"/>
+    <TextView
+        android:text="시작시간"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_weight="1.07">
+
+        <TimePicker
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/autoTimePicker" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/autoDialogOk"
+            android:layout_width="wrap_content"
+            android:text="UPDATE"
+            android:textColor="@color/chart_value_2"
+            android:textSize="17sp"
+            android:layout_height="match_parent"
+            android:background="@color/charcoal"
+            android:layout_weight="0.5" />
+        <Button
+            android:id="@+id/autoDialogCancel"
+            android:text="CANCEL"
+            android:textSize="17sp"
+            android:background="@color/charcoal"
+            android:textColor="@color/chart_value_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+</LinearLayout>

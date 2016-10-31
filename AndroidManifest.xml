@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.seungwook.koreaspot">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:name="@string/step_detector"
+        android:required="false" />
+    <uses-feature
+        android:name="@string/step_counter"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".ExerciseList.ChestContent"
+            android:label="@string/title_activity_chest_content"
+            android:parentActivityName=".temp.WeightListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.seungwook.koreaspot.temp.WeightListActivity" />
+        </activity>
+
+        <receiver android:name=".ExerciseManage.AlarmReceiver" />
+
+        <activity
+            android:name=".temp.WeightListActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExerciseList.SquatContent"
+            android:label="@string/title_activity_squat_content"
+            android:parentActivityName=".temp.WeightListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExerciseList.BicepcurlContent"
+            android:label="@string/title_activity_bicepcurl_content"
+            android:parentActivityName=".temp.WeightListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExerciseList.ShoulderFlyContent"
+            android:label="@string/title_activity_shoulder_fly_content"
+            android:parentActivityName=".temp.WeightListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExerciseList.DumbbellKickbackContent"
+            android:label="@string/title_activity_dumbbell_kickback_content"
+            android:parentActivityName=".temp.WeightListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".temp.StepCount"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExerciseHistory.ExerciseRecode"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExerciseHistory.DetailExerciseRecode"
+            android:parentActivityName=".ExerciseHistory.ExerciseRecode" />
+        <activity
+            android:name=".ExerciseManage.ManageSchedule"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExerciseHistory.DetailWalkingRecode"
+            android:parentActivityName=".ExerciseHistory.ExerciseRecode"
+            android:theme="@style/Theme.AppCompat" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".PhotoHistory.PhotoHistory"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".PhotoHistory.DetailsActivity"
+            android:parentActivityName=".PhotoHistory.PhotoHistory"
+           ></activity>
+    </application>
+
+</manifest>

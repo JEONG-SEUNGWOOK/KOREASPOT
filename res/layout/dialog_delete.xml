@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="삭제"
+        android:background="@color/chart_value_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:id="@+id/textView5"
+        android:textColor="@color/white"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:textAppearance="@android:style/TextAppearance.Material.Large" />
+
+
+    <TextView
+        android:text="삭제 하시겠습니까?"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:id="@+id/textView6"
+        android:textColor="@color/white"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingBottom="2dp"
+        android:orientation="horizontal"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/dialogNo"
+            android:layout_width="wrap_content"
+            android:text="No"
+            android:textSize="17sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.37" />
+
+        <Button
+            android:id="@+id/dialogYes"
+            android:text="Yes"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.36" />
+    </LinearLayout>
+</LinearLayout>

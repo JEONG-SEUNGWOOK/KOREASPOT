@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMain">#333333</color>
+    <color name="colorApp">#252627</color>
+    <color name="colorFont">#F65148</color>
+    <color name="Nero">#252627</color>
+    <color name="white">#FFFFFF</color>
+    <color name="PictonBlue">#4da1ec</color>
+    <color name="text_green">#00F0A4</color>
+    <color name="medium_spring_green">#00CC99</color>
+    <color name="gray">#999999</color>
+    <color name="geraldine">#FF838B</color>
+    <color name="charcoal">#424242</color>
+
+    <color name="chart_value_1">#2d4302</color>
+    <color name="chart_value_2">#75a80d</color>
+    <color name="chart_value_3">#8fc026</color>
+    <color name="chart_value_4">#B5CC84</color>
+</resources>

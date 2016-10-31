@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sex_value">
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+
+    <string-array name="exercise">
+        <item >BICEPSCURL</item>
+        <item >CHEST</item>
+        <item >KICKBACK</item>
+        <item >SHOULDERFLY</item>
+        <item >SQUAT</item>
+    </string-array>
+    <string-array name="custom_months">
+        <item >JANUARY</item>
+        <item >FEBURARY</item>
+        <item >MARCH</item>
+        <item >APRIL</item>
+        <item >MAY</item>
+        <item >JUNE</item>
+        <item >JULY</item>
+        <item >AUGUST</item>
+        <item >SEPTEMBER</item>
+        <item >OCTOBER</item>
+        <item >NOVEMBER</item>
+        <item >DECEMBER</item>
+    </string-array>
+    <string-array name="custom_weekdays">
+        <item >SUN</item>
+        <item >MON</item>
+        <item >TUE</item>
+        <item >WED</item>
+        <item >THU</item>
+        <item >FRI</item>
+        <item >SAT</item>
+    </string-array>
+    <string-array name="strength">
+        <item >Easy</item>
+        <item >Normal</item>
+        <item >Hard</item>
+    </string-array>
+    <string-array name="routine">
+        <item >Auto</item>
+        <item >Routine 1</item>
+        <item >Routine 2</item>
+        <item >Routine 3</item>
+    </string-array>
+</resources>

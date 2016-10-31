@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">KOREASPOT</string>
+    <string name="title_activity_drawer">drawer</string>
+
+    <string name="HowToChest">
+        "1. 밴드 중앙을 두발로 밟고 서서 양손으로 밴드를 잡습니다.\n\n"
+        "2. 손바닥이 전방을 향하게 하여 양손을 가슴 앞으로 모아 정지합니다.\n\n"
+        "3. 이때 가슴근육의 수축에 집중합니다.\n\n"
+        "4. 양손을 천천히 내려놓습니다.\n\n"
+
+    </string>
+    <string name="chest_breathe">"양손을 가슴 앞으로 모을 때 호흡을 내쉬고, 천천히 버티며 내려놓을 때 호흡을 마십니다.\n\n"</string>
+    <string name="chest_attention">
+        "허리가 구부려지지 않도록 주의합니다.\n\n"
+        "허벅지가 지면과 평행을 이루도록 자세를 취합니다.\n\n"
+        "아킬레스건의 유연성에 따라 발뒤꿈치에 부목을 대기도 합니다.\n\n"
+    </string>
+
+    <string name="HowToBicepcurl">
+        "1. 양발을 어깨 너비만큼 벌리고 바로 섭니다.\n\n"
+        "2. 양손에 덤벨을 쥐고 손바닥이 정면을 향하도록 자세를 취합니다.\n\n"
+        "3. 팔꿈치를 옆구리 가까이 모아 고정시킨 상태에서 팔꿈치를 구부려 덤벨을 들어 올립니다.\n\n"
+        "4. 서서히 버티며 시작자세로 돌아옵니다.\n\n"
+
+    </string>
+    <string name="bicepcurl_breathe">"덤벨을 들어 올려 이두근이 수축할 때 호흡을 내쉬고 서서히 버티며 내려놓을 때 호흡을 마십니다.\n\n"</string>
+    <string name="bicepcurl_attention">
+        "이두근이 최대한으로 수축하도록 덤벨을 끝까지 들어 올리고 최고정점에서 잠시 정지하여 이두근을 꽉 짜줍니다.\n\n"
+        "반동을 이용해 상체가 앞뒤로 움직이지 않도록 주의합니다.\n\n"
+        "팔꿈치의 위치는 변하지 않도록 주의합니다.\n\n"
+    </string>
+
+    <string name="HowToDumbbellKickback">
+        "1. 상체를 숙이고 등과 허리는 곧게 폅니다.\n\n"
+        "2. 한쪽 손으로 덤벨을 잡고 팔꿈치를 위로 끌어당깁니다.\n\n"
+        "3. 팔꿈치를 몸 가까이 붙인 상태에서 덤벨을 위로 힘껏 밀어 올립니다.\n\n"
+        "4. 팔꿈치를 접어 덤벨을 서서히 내려놓습니다.\n\n"
+
+    </string>
+    <string name="dumbbell_kickback_breathe">"팔꿈치를 펴 덤벨을 위로 힘껏 밀러 올릴 때 호흡을 내쉬고 덤벨을 천천히 버티며 내려 놓을 때 호흡을 마십니다.\n\n"</string>
+    <string name="dumbbell_kickback_attention">
+        "팔꿈치가 몸에서 멀어지지 않도록 붙여 놓습니다.\n\n"
+        "(이때 어깨가 들리지 않도록 합니다.)\n\n"
+    </string>
+
+    <string name="HowToShoulderfly">
+        "1. 두발은 어깨 너비로 편안하게 벌립니다.\n\n"
+        "2. 양손은 덤벨을 잡고 허벅지 옆에 내려놓습니다.\n\n"
+        "3. 양손을 어깨높이 정도 옆으로 들어 올립니다.\n\n"
+        "4. 서서히 버티며 내려놓습니다.\n\n"
+
+    </string>
+    <string name="shoulderfly_breathe">"양손을 들어 올릴 때 호흡을 내쉬고 서서히 버티며 내려놓을 때 호흡을 마십니다.\n\n"</string>
+    <string name="shoulderfly_attention">
+        "최고 높이에서 새끼손가락과 팔꿈치가 살짝 하늘 방향으로 올라가도록 안으로 돌립니다.\n\n"
+        "양손을 들어 올릴 때 가급적 승모가 올라가지 않도록 하여 어깨근육을 고립시킵니다.\n\n"
+    </string>
+
+    <string name="HowToSquat">
+        "1. 두발은 어깨 너비로 편안하게 벌립니다.\n\n"
+        "2. 팔은 팔짱을 껴서 앞으로 들고 엉덩이를 뒤로 뺀다는 느낌으로 오토바이 타는 자세(기마자세)를 취합니다.\n\n"
+        "3. 일어설 때는 발뒤꿈치로 강하게 지면을 밀어 허벅지와 엉덩이를 수축시킵니다.\n\n"
+
+    </string>
+    <string name="squat_breathe">"천천히 버티며 앉을 때 호흡을 마시고, 일어설 때 호흡을 내쉽니다.\n\n"</string>
+    <string name="squat_attention">
+        "허리가 구부러지지 않도록 주의합니다.\n\n"
+        "허벅지가 지면과 평행을 이루도록 자세를 취합니다.\n\n"
+        "아킬레스건의 유연성에 따라 발뒤꿈치에 부목을 대기도 합니다.\n\n"
+    </string>
+    <string name="title_activity_chest_content">CHEST</string>
+    <string name="title_activity_squat_content">SQUAT</string>
+    <string name="title_activity_bicepcurl_content">BICEPCURL</string>
+    <string name="title_activity_shoulder_fly_content">SHOULDER FLY</string>
+    <string name="title_activity_dumbbell_kickback_content">DUMBBELL KICKBACK</string>
+
+    <string name="step_counter">android.hardware.sensor.stepcounter</string>
+    <string name="step_detector">android.hardware.sensor.stepdetector</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+
+    <string-array name="image_ids">
+        <item>@drawable/chest</item>
+        <item>@drawable/dumbbell</item>
+        <item>@drawable/arrow</item>
+        <item>@drawable/exercise</item>
+        <item>@drawable/logo</item>
+
+    </string-array>
+</resources>
